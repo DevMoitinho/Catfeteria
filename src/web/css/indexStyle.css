@@ -1,0 +1,13 @@
+@import url("pallete_mocha.css");
+
+.content{
+    display:grid;
+    justify-content:center;
+
+    background-image: url("../../../files/mochaCoffe.jpg");
+    background-size: 100% 90%;
+}
+
+.mainImg{
+    height:300px;
+}
