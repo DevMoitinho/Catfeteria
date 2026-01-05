@@ -1,25 +1,34 @@
-@import url("pallete_mocha.css");
+@import url("themes/pallete_mocha.css");
 
 .content{
     display:flex;
     justify-content:center;
-    margin-top:3em;
+
+    margin-top:5em;
+
+    gap:2em;
 
 }
 
 .mainImg{
     display:flex;
-    width:90%;
-    height:300px;
     justify-content:center;
     align-items:center;
-
+    height:10em;
+    
+    border-radius:15px;
+    
     font-size:32px;
-    h1{
-        color:var(--crust);
-    }
- 
-    background-image: url("../../../files/images/mochaCoffe.jpg");
-    background-size: 100% 90%;   
+}
 
+.text{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    width:30em;
+
+    padding-top: 2em;
+    
+    font-size:18px;
 }

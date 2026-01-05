@@ -1,0 +1,79 @@
+*{
+    color: var(--text);
+    text-decoration:none;
+    quotes: "'" "'";
+}
+
+.theme{
+    border: none;
+    margin-right: 4em;
+    background-color: rgba(0,0,0,0); 
+}
+
+.yuji-boku-regular {
+  font-family: "Yuji Boku", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+ }
+
+
+body{
+    background-color: var(--base);
+    margin:0px;
+    padding:0px;
+
+}
+
+footer{
+    background-color: var(--mantle);
+}
+
+header{
+    display:grid; 
+    grid-template-columns:0.2fr 3.4fr 0.2fr 0.2fr;
+    background-color: var(--surface0);
+    border-radius:1em;
+    
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+    width:92%;
+
+    gap: 2em;
+
+    font-size:18px;
+}
+
+.insta{
+    display:flex;
+    width:100%;
+    justify-content:right;
+    margin-right:1em;
+}
+
+.pageLink{
+    display:flex;
+    align-items:center; 
+
+}
+
+.link:hover{
+    transform:scale(0.9);
+    p{
+        color:var(--maroon);
+    }
+}
+
+.icons{
+    height:3em;
+    width:3em;
+ }
